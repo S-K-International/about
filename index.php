@@ -29,4 +29,5 @@ echo $domain;*/
     echo "<br>";
     echo $RequestURL;
     echo "<br>";
+    echo $_SERVER['PHP_SELF'];
 ?>
