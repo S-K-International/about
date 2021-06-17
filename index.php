@@ -12,9 +12,10 @@
     echo "<br>";
     echo 'SCRIPT_NAME: ' .$_SERVER['SCRIPT_NAME'];
     echo "<br>";
+    echo 'RequestURL: ' .$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
-    $domain     = $_SERVER['HTTP_HOST'];
-    echo $domain;
+    //$domain     = $_SERVER['HTTP_HOST'];
+    //echo $domain;
 
 /*
     header('Content-language: en-US');
