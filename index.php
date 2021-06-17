@@ -1,8 +1,3 @@
-<html>
-  <head>
-    <title>S.K.Intrnational</title>
-  </head>
-  <body>
-    <h2>Hello World!</h2>
-  </body>
-</html>
+<?
+  echo $_SERVER[HTTP_HOST];
+?>
